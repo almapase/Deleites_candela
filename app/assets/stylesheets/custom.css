@@ -1,0 +1,36 @@
+.ms-tabs .ms-thumb {
+  color: #ffcc00;
+}
+
+.g-color-gold {
+    color: #ffcc00 !important;
+}
+
+.u-theme-shadow-v1 {
+    box-shadow: inset 2px 2px 2px #808080;
+}
+
+.g-theme-bg-primary-dark-v1 {
+    background-color: #808080 !important;
+}
+
+.u-btn-gold {
+    color: #000;
+    background-color: #ffc215;
+}
+
+.ms-slide-bgcont::before {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ms-anim-layers {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ms-layer {
+    left: 0 !important;
+}
+
+.g-bg-secondary {
+  background-color: #ffc215 !important;
+}
