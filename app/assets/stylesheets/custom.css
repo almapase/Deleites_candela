@@ -34,3 +34,11 @@
 .g-bg-secondary {
   background-color: #ffc215 !important;
 }
+
+.g-font-weight-700 {
+    font-weight: 400;
+}
+
+h2 {
+    margin: 0px;
+}
