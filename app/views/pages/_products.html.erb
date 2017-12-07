@@ -1,114 +1,53 @@
-<!-- Section Content -->
 <section id="special" class="g-bg-primary g-py-100">
   <div class="container">
-    <section class="js-carousel"
-              data-vertical="true"
-              data-pagi-classes="u-carousel-indicators-v7 text-center">
-      <div class="js-slide">
-        <!-- Article -->
-        <article class="row flex-items-middle text-center">
-          <div class="col-lg-6 align-self-center g-mb-50">
-            <div class="text-uppercase text-center u-heading-v5-3 u-heading-v5-color-primary u-heading-v5-rounded-50x g-mb-20">
-              <%# <h4 class="g-font-weight-700 g-font-size-12 g-color-white g-mb-15">From chef</h4> %>
-              <h2 class="u-heading-v5__title g-line-height-1_2 g-font-weight-700 g-font-size-32 g-font-size-40--md g-color-gold g-bg-white--before g-pb-40">Torta 4 Leches Frutilla</h2>
-            </div>
+    <!-- Products Block -->
+    <div class="row">
+      <%= render( partial: "product", 
+        locals: { 
+          photo_name: "los-deleites-de-candela-4-Leches-Frutilla-thumb.jpg",
+          photo_desc: "los-deleites-de-candela-4-Leches-Frutilla",
+          title: "Torta 4 Leches Frutilla",
+          description: "Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante."
+        }
+      )%>
 
-            <div class="g-px-70--md">
-              <p class="g-color-white g-mb-25">Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.</p>
-            </div>
+      <%= render( partial: "product", 
+        locals: { 
+          photo_name: "los-deleites-de-candela-Moka-Manjar-thumb.jpg",
+          photo_desc: "los-deleites-de-candela-Moka-Manjar",
+          title: "Torta Moka Manjar",
+          description: "Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante."
+        }
+      )%>
 
-            <%# <strong class="d-block g-color-gold g-font-size-26 g-mb-30">$14.00</strong> %>
-            <button class="btn text-uppercase u-btn-gold g-font-weight-700 g-font-size-11 g-theme-color-gray-dark-v2 g-brd-none rounded-0 g-px-30 g-py-25" type="submit">Reserva ahora!</button>
-          </div>
+      <%= render( partial: "product", 
+        locals: { 
+          photo_name: "los-deleites-de-candela-Pisco-Sour-thumb.jpg",
+          photo_desc: "los-deleites-de-candela-Pisco-Sour",
+          title: "Torta Pisco Sour",
+          description: "Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante."
+        }
+      )%>
 
-          <div class="col-lg-6">
-            <!-- Article Image -->
-            <img class="img-fluid g-width-360 g-width-auto--lg mx-auto" src="<%= image_url 'los-deleites-de-candela-4-Leches-Frutilla.png' %>" alt="Image description">
-            <%# <img class="img-fluid g-width-360 g-width-auto--lg mx-auto" src="assets/img-temp/700x700/img1.png" alt="Image description"> %>
-            <!-- End Article Image -->
-          </div>
-        </article>
-        <!-- End Article -->
-      </div>
+      <%= render( partial: "product", 
+        locals: { 
+          photo_name: "los-deleites-de-candela-Torta-Especial-thumb.jpg",
+          photo_desc: "los-deleites-de-candela-Torta-Especial",
+          title: "Tortas Especiales",
+          description: "Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante."
+        }
+      )%>
 
-      <div class="js-slide">
-        <!-- Article -->
-        <article class="row flex-items-middle text-center">
-          <div class="col-lg-6 align-self-center g-mb-50">
-            <div class="text-uppercase text-center u-heading-v5-3 u-heading-v5-color-primary u-heading-v5-rounded-50x g-mb-20">
-              <%# <h4 class="g-font-weight-700 g-font-size-12 g-color-white g-mb-15">From chef</h4> %>
-              <h2 class="u-heading-v5__title g-line-height-1_2 g-font-weight-700 g-font-size-40 g-color-gold g-bg-white--before g-pb-40">Torta Moka Manjar</h2>
-            </div>
-
-            <div class="g-px-70--md">
-              <p class="g-color-white g-mb-25">Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.</p>
-            </div>
-
-            <%# <strong class="d-block g-color-gold g-font-size-26 g-mb-30">$14.00</strong> %>
-            <button class="btn text-uppercase u-btn-gold g-font-weight-700 g-font-size-11 g-theme-color-gray-dark-v2 g-brd-none rounded-0 g-px-30 g-py-25" type="submit">Reserva ahora!</button>
-          </div>
-
-          <div class="col-lg-6">
-            <!-- Article Image -->
-            <img class="img-fluid g-width-360 g-width-auto--lg mx-auto" src="<%= image_url 'los-deleites-de-candela-Moka-Manjar.png' %>" alt="Image description">
-            <!-- End Article Image -->
-          </div>
-        </article>
-        <!-- End Article -->
-      </div>
-
-      <div class="js-slide">
-        <!-- Article -->
-        <article class="row flex-items-middle text-center">
-          <div class="col-lg-6 align-self-center g-mb-50">
-            <div class="text-uppercase text-center u-heading-v5-3 u-heading-v5-color-primary u-heading-v5-rounded-50x g-mb-20">
-              <%# <h4 class="g-font-weight-700 g-font-size-12 g-color-white g-mb-15">From chef</h4> %>
-              <h2 class="u-heading-v5__title g-line-height-1_2 g-font-weight-700 g-font-size-40 g-color-gold g-bg-white--before g-pb-40">Torta Pisco Sour</h2>
-            </div>
-
-            <div class="g-px-70--md">
-              <p class="g-color-white g-mb-25">Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.</p>
-            </div>
-
-            <%# <strong class="d-block g-color-gold g-font-size-26 g-mb-30">$14.00</strong> %>
-            <button class="btn text-uppercase u-btn-gold g-font-weight-700 g-font-size-11 g-theme-color-gray-dark-v2 g-brd-none rounded-0 g-px-30 g-py-25" type="submit">Reserva ahora!</button>
-          </div>
-
-          <div class="col-lg-6">
-            <!-- Article Image -->
-            <img class="img-fluid g-width-360 g-width-auto--lg mx-auto" src="<%= image_url 'los-deleites-de-candela-Pisco-Sour.png' %>" alt="Image description">
-            <!-- End Article Image -->
-          </div>
-        </article>
-        <!-- End Article -->
-      </div>
-
-      <div class="js-slide">
-        <!-- Article -->
-        <article class="row flex-items-middle text-center">
-          <div class="col-lg-6 align-self-center g-mb-50">
-            <div class="text-uppercase text-center u-heading-v5-3 u-heading-v5-color-primary u-heading-v5-rounded-50x g-mb-20">
-              <%# <h4 class="g-font-weight-700 g-font-size-12 g-color-white g-mb-15">From chef</h4> %>
-              <h2 class="u-heading-v5__title g-line-height-1_2 g-font-weight-700 g-font-size-40 g-color-gold g-bg-white--before g-pb-40">Tortas Especiales</h2>
-            </div>
-
-            <div class="g-px-70--md">
-              <p class="g-color-white g-mb-25">Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.</p>
-            </div>
-
-            <%# <strong class="d-block g-color-gold g-font-size-26 g-mb-30">$14.00</strong> %>
-            <button class="btn text-uppercase u-btn-gold g-font-weight-700 g-font-size-11 g-theme-color-gray-dark-v2 g-brd-none rounded-0 g-px-30 g-py-25" type="submit">Reserva ahora!</button>
-          </div>
-
-          <div class="col-lg-6">
-            <!-- Article Image -->
-            <img class="img-fluid g-width-360 g-width-auto--lg mx-auto" src="<%= image_url 'los-deleites-de-candela-Torta-Especial.png' %>" alt="Image description">
-            <!-- End Article Image -->
-          </div>
-        </article>
-        <!-- End Article -->
-      </div>
-    </section>
+      <%= render( partial: "product", 
+        locals: { 
+          photo_name: "los-deleites-de-candela-queque-navidad-thumb.jpg",
+          photo_desc: "los-deleites-de-candela-queque-navidad",
+          title: "Queque Navideño",
+          description: "Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante."
+        }
+      )%>
+      
+    </div>
+    <!-- End Products Block -->
   </div>
-</section>
-<!-- End Section Content -->
+</section> 
